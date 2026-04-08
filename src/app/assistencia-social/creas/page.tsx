@@ -36,13 +36,19 @@ export default function HomePage() {
           <Link href="/assistencia-social" className="text-green-700 font-bold">Assistência Social</Link>
           <Link href="/boletins" className="hover:text-green-700 transition">Boletim da Vigilância</Link>
           <Link href="/normativas" className="hover:text-green-700 transition">Normativas</Link>
-          <a href="#sobre" className="hover:text-green-700 transition">Sobre a Vigilância</a>
+          <a href="/sobre" className="hover:text-green-700 transition">Sobre a Vigilância</a>
         </nav>
       </header>
     
       {/* Corpo da página */}
-      <main className="flex-1 flex items-center justify-center">
+      <main className="flex-1 flex flex-col items-center justify-center space-y-4">
         <h2 className="text-3xl font-bold text-gray-800">CREAS</h2>
+        <a
+          href="https://geocase-track-pro.base44.app"
+          className="px-6 py-3 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition"
+        >
+          Abrir Sistema de Registro de Informações do PAEFI
+        </a>
       </main>
 
       {/* Rodapé */}

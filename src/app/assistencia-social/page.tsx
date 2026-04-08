@@ -79,7 +79,7 @@ export default function HomePage() {
           <Link href="/assistencia-social" className="text-green-700 font-bold">Assistência Social</Link>
           <Link href="/boletins" className="hover:text-green-700 transition">Boletim da Vigilância</Link>
           <Link href="/normativas" className="hover:text-green-700 transition">Normativas</Link>
-          <a href="#sobre" className="hover:text-green-700 transition">Sobre a Vigilância</a>
+          <a href="/sobre" className="hover:text-green-700 transition">Sobre a Vigilância</a>
         </nav>
       </header>
 

@@ -88,7 +88,7 @@ export default function HomePage() {
           <Link href="/boletins" className="hover:text-green-700 transition">Boletim da Vigilância</Link>
           <Link href="/normativas" className="hover:text-green-700 transition">Normativas</Link>
           {/* O link para âncora interna usa a tag <a> padrão, que já utiliza href. */}
-          <a href="#sobre" className="hover:text-green-700 transition">Sobre a Vigilância</a>
+          <a href="/sobre" className="hover:text-green-700 transition">Sobre a Vigilância</a>
         </nav>
       </header>
       {/* Fim do Header */}

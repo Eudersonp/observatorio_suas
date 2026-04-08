@@ -40,9 +40,14 @@ export default function HomePage() {
         </nav>
       </header>
     
-      {/* Corpo da página */}
-      <main className="flex-1 flex items-center justify-center">
+      <main className="flex-1 flex flex-col items-center justify-center space-y-4">
         <h2 className="text-3xl font-bold text-gray-800">CRAS</h2>
+        <a
+          href="https://beneficio-bpc-mais.base44.app/"
+          className="px-6 py-3 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition"
+        >
+          Sistema BPC - 0 a 6 anos
+        </a>
       </main>
 
       {/* Rodapé */}
