@@ -50,6 +50,7 @@ export default function HomePage() {
           Abrir Sistema de Registro de Informações do PAEFI
         </a>
       </main>
+      
 
       {/* Rodapé */}
       <footer className="bg-gradient-to-r from-blue-700 to-green-600 text-center py-4 text-white text-sm mt-8">
