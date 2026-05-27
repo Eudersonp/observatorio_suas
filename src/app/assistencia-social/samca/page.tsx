@@ -41,8 +41,25 @@ export default function HomePage() {
       </header>
     
       {/* Corpo da página */}
-      <main className="flex-1 flex items-center justify-center">
-        <h2 className="text-3xl font-bold text-gray-800">SAMCA</h2>
+      <main className="flex-1 flex flex-col items-center justify-center space-y-4 w-full px-4">
+        <div className="w-full max-w-xl bg-white/60 rounded-md p-4 shadow-sm">
+          <div className="flex items-center gap-4">
+            <img src="/paefi.png" alt="Ícone SAMCA" className="w-16 h-16 object-contain" />
+            <h2 className="text-2xl font-bold text-gray-800 flex items-center gap-2">
+              <svg aria-hidden="true" className="w-5 h-5 text-green-700" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 12h18" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M12 3v18" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+              InfoSAMCA
+            </h2>
+          </div>
+          <a
+            href="#" /* coloque aqui o link do sistema */
+            className="mt-3 inline-block px-6 py-3 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition"
+          >
+            Sistema InfoSAMCA
+          </a>
+        </div>
       </main>
 
       {/* Rodapé */}
