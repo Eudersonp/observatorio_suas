@@ -75,7 +75,7 @@ export default function HomePage() {
             href="https://fragrant-cras-flow-connect.base44.app"
             className="mt-3 inline-block px-6 py-3 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition"
           >
-            Sistema INFORCRAS
+            Sistema INFOCRAS
           </a>
         </div>
       </main>
