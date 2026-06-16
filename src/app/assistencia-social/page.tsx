@@ -9,7 +9,7 @@ function ProgramsGroup() {
     { href: "/assistencia-social/creas", img: "/creas.png", title: "CREAS" },
     { href: "/assistencia-social/samca", img: "/samca.png", title: "SAMCA" },
     { href: "/assistencia-social/ccpi", img: "/ccpi.png", title: "CCPI" },
-    { href: "/assistencia-social/cadunico_pbf", img: "/cadunico.png", title: "Cadastro Único / PBF" },
+    { href: "https://rma-data-flow.base44.app/", img: "/cadunico.png", title: "Cadastro Único / PBF" },
     { href: "/assistencia-social/semteps", img: "/logo.png", title: "SEMTEPS - Sede" },
   ];
 
