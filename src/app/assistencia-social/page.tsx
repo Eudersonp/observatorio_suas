@@ -11,6 +11,7 @@ function ProgramsGroup() {
     { href: "/assistencia-social/ccpi", img: "/ccpi.png", title: "CCPI" },
     { href: "https://rma-data-flow.base44.app/", img: "/cadunico.png", title: "Cadastro Único / PBF" },
     { href: "/assistencia-social/semteps", img: "/logo.png", title: "SEMTEPS - Sede" },
+    { href: "https://conecta-trabalho-pro.base44.app/", img: "/logo.png", title: "Sala do Trabalhador" },
   ];
 
   return (
